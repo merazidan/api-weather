@@ -52,7 +52,7 @@ searchSubscribe=document.getElementById("searchsubscribe")
 
 
  async function getWeather(currentCity='cairo'){
-  myResponse= await fetch(`http://api.weatherapi.com/v1/forecast.json?key=c1848ee50ee5492bb43223423222310&q=${currentCity}&days=3`);
+  myResponse= await fetch(`https://api.weatherapi.com/v1/forecast.json?key=c1848ee50ee5492bb43223423222310&q=${currentCity}&days=3`);
   responseData = await myResponse.json()
  displayTodayWeather()
  displayNextDaysWeather()
