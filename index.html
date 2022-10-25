@@ -1,0 +1,102 @@
+<html>
+    <head>
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+    </head>
+    <body >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
+            <div class="container">
+               <div class=" d-flex justify-content-between align-items-center">
+                <img src="img/logo@2x.png" alt="" class="my-nav-img me-3  ">
+              <div class="">
+                <a class="navbar-brand " href="#">Weather</a>
+                <p class="text-white ">tagline goes here</p>
+              </div>
+               </div>
+               <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon  "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item ms-5  ">
+                    <button class="btn border-info rounded-pill py-1 px-4 "><a class="nav-link active text-info  p-0" aria-current="page" href="#">Home</a></button>
+                  </li>
+                  <li class="nav-item ms-5">
+                    <a class="nav-link text-white" href="#">News</a>
+                  </li>
+                 
+                  <li class="nav-item ms-5">
+                    <a class="nav-link text-white ">live cameras</a>
+                  </li>
+                 
+                  <li class="nav-item ms-5">
+                    <a class="nav-link text-white ">Photos</a>
+                  </li>
+                 
+                  <li class="nav-item ms-5">
+                    <a class="nav-link text-white ">Contact</a>
+                  </li>
+                </ul>
+              
+              </div>
+            </div>
+          </nav>
+          <div class="bg-img py-5 bg-dark ">
+        <div class="w-75 m-auto position-relative search ">
+          <input type="text" id="search" class=" form-control my-5 bg-dark py-3 text-white border-2 border-dark rounded-5" placeholder=" Find your location .... ">
+          <button class=" btn btn-info rounded-pill position-absolute end-0 top-50  translate-middle-y px-4 py-2 text-white me-2  "> Find</button>
+        </div>
+          <div class="row w-75 m-auto  rounded-4 gx-2 ">
+
+            <!-- WEATHER  OF  TODAY  -->
+           <div class="col-lg-4  text-black pb-5 today rounded-4  bg-info p-0 my-0 ">
+            <div class="d-flex justify-content-between align-items-center day-date py-2 px-3 mb-2 text-white  rounded-start  ">
+              <p id="day"></p>
+              <p id="date"></p>
+           </div>
+              <P  class="px-3" id="nameofcountry"></P>
+              <h1  class="px-3" class="fs-1" id="degree"></h1>
+              <img   class="px-3" src="" alt="">
+              <p class="px-3" id="weatherstatus"></p>
+              <div class=" d-flex justify-content-between px-3">
+                <span> <img  class="pe-1"src="img/icon-umberella.png" alt=""> <span id="humadity"> </span>
+                  %</span>
+                <span> <img class="pe-1" src="img/icon-wind.png" alt=""><span id="wind"> </span>
+                  km/h</span>
+                <span> <img class="pe-1" src="img/icon-compass.png" alt=""><span id="compass"> </span> 
+                  East</span>
+                </div>
+          </div>
+          <!-- WEATHER  OF  THE  NEXT  DAY  -->
+          <div class="col-lg-4 nextdays text-center px-0 rounded-4">
+            <p class=" nextday text-center mb-5 mx-0 py-3 text-white "></p>
+           <img  class="icon-nextday" src="" alt="">
+           <h2 class="degree-nextday"></h2>
+           <p class="min-degree-nextday"></p>
+           <p class="weatherstatus"></p>
+          </div>
+          <div class="col-lg-4  text-center px-0 bg-info rounded-4">
+            <p class=" nextday text-center mb-5 py-3 text-white"></p>
+           <img  class="icon-nextday" src="" alt="">
+           <h2 class="degree-nextday"></h2>
+           <p class="min-degree-nextday"></p>
+           <p class="weatherstatus"></p>
+          </div>
+          </div>
+          <div class="w-50 m-auto position-relative mt-4  ">
+            <input id="searchsubscribe" type="text" class=" form-control my-5 bg-black py-3 text-white border-2 border-dark  rounded-5" placeholder=" Enter Your Email to Subscribe">
+            <button class=" btn btn-info rounded-pill position-absolute end-0 top-50  translate-middle-y px-4 py-2 text-white  me-2  " id="btnsubscribe"> Subscribe</button>
+            </div>
+            <div class="w-25 m-auto d-flex justify-content-around text-white fs-1">
+               <a class="text-white" href="https://www.facebook.com/profile.php?id=100072806546727" target="_blank"> <i class="fa-brands fa-facebook"></i></a> 
+               <a class="text-white" href="https://www.linkedin.com/in/amira-zidan-a06885248/"  target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
+               <a class="text-white"  href="https://github.com/merazidan"  target="_blank"><i class="fa-brands fa-github"></i></a> 
+            </div>
+          <p  class=" text-muted text-center my-5">  Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+          <script src="js/all.min.js"></script>
+          <script src="js/bootstrap.bundle.min.js"></script>
+          <script src="js/index.js"></script>
+    </body>
+</html>
+

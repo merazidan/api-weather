@@ -1,0 +1,19 @@
+.my-nav-img {
+    width: 60px;
+}
+nav p{
+    font-size: 11PX;
+}
+.bg-img{
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+}
+.day-date{
+    background-color: rgba(90, 88, 88, 0.799)
+}
+.nextdays{
+    background-color: rgb(121, 118, 175);
+}
+.nextday{
+      background-color: rgba(90, 88, 88, 0.799);
+}
